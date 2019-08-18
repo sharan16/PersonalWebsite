@@ -1,4 +1,4 @@
-# Foobar
+# Personal Website
 
 This is simply a personal website that quickly showcases the highlights of my career thus far
 
