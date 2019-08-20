@@ -13,7 +13,13 @@ Author: themehippo.com
 # Theme Color (link color) #82b541
 # Mid grey (sub header) #f4f4f4
 # -------------------------------------------------------------------*/
-
+#container{
+    position: relative
+}
+#item{
+    position: absolute;
+    bottom: 0;
+}
 body {
     font-family : 'Hind', sans-serif;
     font-size   : 15px ;
@@ -71,7 +77,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : rgb(235, 89, 79);
+    color              : #147efb;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -90,7 +96,7 @@ a:active {
 a:hover,
 a:focus {
     text-decoration : none;
-    color           : #ff9800;
+    color           : #147efb;
     }
 
 p {
@@ -124,28 +130,28 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #FFC107;
+    background-color : #147efb;
     }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:focus {
-    background : #E64D43;
+    background : #147efb;
     }
 
 /*btn-default*/
 .btn-default {
-    color            : #2a54f5;
+    color            : #147efb;
     background-color : transparent;
-    border           : 2px solid #2a54f5;
+    border           : 2px solid #147efb;
     }
 
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active:focus {
-    background   : #2a54f5;
+    background   : #147efb;
     color        : #ffffff;
-    border-color : #2a54f5;
+    border-color : #147efb;
     }
 
 button:focus,
@@ -386,7 +392,7 @@ button:focus,
     }
 
 .progress-item .progress-bar {
-    background-color : rgb(235, 89, 79);
+    background-color : #147efb;
     box-shadow       : none;
     text-align       : right;
     }
